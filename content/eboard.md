@@ -3,7 +3,7 @@ title="Executive Board"
 description="SOAR currently has approximately 150 active members, including project sub-team leads as well as our executive board."
 +++
 
-![Eboard](/img/eboard/eboard.png)
+![Eboard](/img/eboard/eboard.jpg)
 
 Members:
  * [Javian Hernandez, President](#javian-hernandez)
