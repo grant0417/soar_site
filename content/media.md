@@ -6,7 +6,7 @@ title="Media"
 
 To request more information, to film/photograph a launch, or for an interview with SOAR’s leadership, please email us at <contact@usfsoar.com>.
 
-For high resolution copies of our logo for press purposes, see the following links: [PNG](http://www.usfsoar.com/wp-content/uploads/2016/10/soarlogohres.png) | [Vector (PDF)](http://www.usfsoar.com/wp-content/uploads/2016/10/soarlogosq.pdf)
+For high resolution copies of our logo for press purposes, see the following links: [PNG](/img/logo/soarlogohres.png) | [Vector (PDF)](/img/logo/soarlogosq.pdf)
 
 ---
 
