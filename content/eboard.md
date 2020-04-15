@@ -22,19 +22,19 @@ Members:
 
 <div class="columns">
   <div class="column
-is-half-mobile
-is-one-quarter-tablet
-is-one-quarter-desktop
-is-one-quarter-widescreen
-is-one-quarter-fullhd">
-<figure class="image">
-    <img class="is-rounded" alt="Picture of Dr. Manougian" src="/img/eboard/manougian.jpg">
-</figure>
-</div>
+              is-half-mobile
+              is-one-quarter-tablet
+              is-one-quarter-desktop
+              is-one-quarter-widescreen
+              is-one-quarter-fullhd">
+    <figure class="image">
+        <img class="is-rounded" alt="Picture of Dr. Manougian" src="/img/eboard/manougian.jpg">
+    </figure>
+  </div>
 
-<div class="column">
-To learn about our faculty advisor, Dr. Manoug Manougian, see his <a href="http://www.math.usf.edu/faculty/manoug/">USF Faculty Bio</a> and his <a href="https://en.wikipedia.org/wiki/Manoug_Manougian">Wikipedia article</a>.
-</div>
+  <div class="column">
+  To learn about our faculty advisor, Dr. Manoug Manougian, see his <a href="http://www.math.usf.edu/faculty/manoug/">USF Faculty Bio</a> and his <a href="https://en.wikipedia.org/wiki/Manoug_Manougian">Wikipedia article</a>.
+  </div>
 </div>
 
 ---
@@ -133,9 +133,9 @@ Madison is a Junior working towards her B.S. in Physics while also earning her G
 
 <div class="columns">
   <div class="column is-two-fifths">
-<figure class="image">
-    <img class="is-rounded" alt="Pictue of Rosniel Castro" src="/img/eboard/ross.jpg">
-</figure>
+    <figure class="image">
+        <img class="is-rounded" alt="Pictue of Rosniel Castro" src="/img/eboard/ross.jpg">
+    </figure>
 </div>
 
 <div class="column">
