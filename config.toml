@@ -1,0 +1,23 @@
+# The URL the site will be built for
+base_url = "https://www.usfsoar.com"
+
+#
+title = "Society of Aeronautics and Rocketry at USF"
+description = ""
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# Generates RSS
+generate_rss = true
+
+[extra]
+# Put all your custom variables here
+katex_enable = true
+katex_auto_render = true

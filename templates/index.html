@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="banner--fullscreen">
+  <div class="banner--wrapper">
+    <video class="banner--video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="/video/Mt_Baker.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="banner--overlay">
+    <img src="/img/banner.png">
+  </div>
+  <div class="banner--scroll" id="scroll-for-more">
+    <a href="#scroll-for-more">
+      <div class="box is-transparent">
+        <i style="margin-left: 1em; margin-right: 1em;" class="fas fa-angle-double-down"></i>
+      </div>
+    </a>
+  </div>
+</div>
+
+<section class="hero" id="current-projects">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Current Projects
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical">
+        <div class="tile is-parent">
+          <a href="{{ get_url(path='projects/base11') }}">
+            <div class="box tile is-child">
+              <h2 class="title is-2">Base 11 Space Challenge</h2>
+              <h3 class="subtitle">Liquid Engine Space Shot</h3>
+              <img class="image" src="/img/water-flow-test.jpg">
+            </div>
+          </a>
+        </div>
+        <div class="tile is-parent">
+          <a href="{{ get_url(path='projects/tripolicerts') }}">
+            <div class="box tile is-child">
+              <h2 class="title is-2">
+                Tripoli Rocketry Association Certifications
+              </h2>
+              <h3 class="subtitle">Hands on learning for members</h3>
+              <img class="image" src="/img/level_one_rockets.jpg">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="tile is-vertical">
+        <div class="tile is-parent">
+          <a href="{{ get_url(path='projects/irec') }}">
+            <div class="box tile is-child">
+              <h2 class="title is-2">
+                Asterion
+              </h2>
+              <h3 class="subtitle">30,000' Hybrid Rocket for the Intercollegiate Rocket Engineering Competition</h3>
+              <img class="image" src="/img/feb_irec_test.jpg">
+            </div>
+          </a>
+        </div>
+        <div class="tile is-parent">
+          <a href="{{ get_url(path='projects/dollar-per-foot') }}">
+            <div class="box tile is-child">
+              <h2 class="title is-2">
+                Dollar per Foot Challenge
+              </h2>
+              <h3 class="subtitle">Subscale Liquid Rocket "Big Papa"</h3>
+              <img class="image" src="/img/water-flow-test.jpg">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        How to Get Involved
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    If you are a USF Student
+  </div>
+</section>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Sponsors
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <a href="https://www.cae.com/">
+          <div class="box is-child has-background-white">
+            <img class="image" src="/img/logo/CAE.png">
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

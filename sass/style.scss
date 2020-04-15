@@ -1,0 +1,68 @@
+@import "variables.sass";
+@import "../dependencies/bulma/bulma.sass";
+@import "overrides.scss";
+
+.banner--overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+.banner--scroll {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+.banner--video {
+    object-fit: cover;
+    height: calc(100vh - #{$navbar-height});
+    min-height: calc(100vh - #{$navbar-height});
+    min-width: 100%;
+    z-index: -1;
+}
+
+
+.banner--fullscreen {
+    height: calc(100vh - #{$navbar-height});
+    width: auto;
+}
+
+.vimeo {
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+}
+
+
+
+.main {
+    display: flex;
+    min-height: calc(100vh - #{$navbar-height});
+    flex-direction: column;
+  }
+  
+.section {
+    flex: 1;
+}
+
+html {
+    scroll-behavior: smooth;
+}

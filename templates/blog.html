@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <h1 class="title">
+      {{ section.title }}
+      <a href="/rss.xml"><i class="fas fa-rss"></i></a>
+    </h1>
+    <br>
+    <ul>
+      {% for page in section.pages %}
+      <li>
+        <a href="{{ page.permalink }}">
+          <div class="box">
+            <h2 class="title is-4">
+            {{ page.title }}
+              <span class="has-text-grey-light">
+              • {{ page.date }}
+              {% if page.extra.author %}
+              • {{ page.extra.author }}
+              {% endif %}
+              </span>
+            </h2>
+            {% if page.description %}
+            <p style="margin-left: 1.5em; margin-top: .5em;" class="subtitle has-text-grey-lighter">{{ page.description }}</p>
+            {% endif %}
+          </div>
+        </a>
+        <br>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endblock content %}

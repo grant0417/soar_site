@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>USF Society of Aeronautics and Rocketry</title>
+
+        {% block js %}
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="/script/navbar.js"></script>
+        {% if config.extra.katex_enable %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css"
+            integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js"
+            integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx"
+            crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/mathtex-script-type.min.js"
+            integrity="sha384-zWYbd0NBwgTsgIdFKVprSfTh1mbMPe5Hz1X3yY4Sd1h/K1cQoUe36OGwAGz/PcDy"
+            crossorigin="anonymous"></script>
+        {% if config.extra.katex_auto_render %}
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js"
+            integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script>
+        {% endif %}
+        {% endif %}
+        {% endblock js %}
+
+        {% block css %}
+        <link rel="stylesheet" href="/style.css">
+        {% if config.extra.katex_enable %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css"
+            integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+        {% endif %}
+        {% endblock css %}
+    </head>
+
+    <body class="main">
+
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="{{ config.base_url }}">
+                    <img style="height: 100px;" src="/img/banner.png">
+                </a>
+                <a role="button" class="navbar-burger burger " aria-label="menu" aria-expanded="false"
+                    data-target="navMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navMenu" class="navbar-menu">
+                <div class=" navbar-start">
+                    <a href="/index" class="navbar-item">
+                        Home
+                    </a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/projects" class="navbar-link">
+                            Projects
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a href="/projects/base11" class="navbar-item">
+                                Base 11 Space Challenge
+                            </a>
+                            <a href="/projects/irec" class="navbar-item">
+                                Asterion
+                            </a>
+                            <a href="/projects/dollar-per-foot" class="navbar-item">
+                                Dollar per Foot Challenge
+                            </a>
+                            <a href="/path='projects/twostage" class="navbar-item">
+                                Two-Stage
+                            </a>
+                            <a href="/projects/tripolicerts" class="navbar-item">
+                                Tripoli Certifications
+                            </a>
+                            <hr class="navbar-divider">
+                            <a href="/projects" class="navbar-item">
+                                All Projects
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/about" class="navbar-link">
+                            About
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a href="/eboard" class="navbar-item">
+                                E-Board
+                            </a>
+                            <a href="/calender" class="navbar-item">
+                                Calender
+                            </a>
+                            <a href="/media" class="navbar-item">
+                                Media
+                            </a>
+                            <a href="/sponsorship" class="navbar-item">
+                                Sponsorship
+                            </a>
+                        </div>
+                    </div>
+                    <a href="/contact" class="navbar-item">
+                        Contact Us
+                    </a>
+                </div>
+                <div class="navbar-end">
+                    <a href="/join-usf-soar" class="navbar-item">
+                        Join
+                    </a>
+                    <a href="https://giving.usf.edu/how/herdfunder/usfs-race-space" class="navbar-item">
+                        Contribute
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        {% block content %} {% endblock %}
+
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <a href="https://www.instagram.com/usfsoar/">
+                        <span class="icon is-large">
+                            <i class="fab fa-2x fa-instagram"></i>
+                        </span>
+                    </a>
+                    <a href="https://www.facebook.com/usfsoar/">
+                        <span class="icon is-large">
+                            <i class="fab fa-2x fa-facebook"></i>
+                        </span>
+                    </a>
+                    <a href="https://twitter.com/usfsoar/">
+                        <span class="icon is-large">
+                            <i class="fab fa-2x fa-twitter"></i>
+                        </span>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCUYj5Gy1M1UwwZYzC5QRLHQ/">
+                        <span class="icon is-large">
+                            <i class="fab fa-2x fa-youtube"></i>
+                        </span>
+                    </a>
+                    <a href="https://github.com/usfsoar">
+                        <span class="icon is-large">
+                            <i class="fab fa-2x fa-github"></i>
+                        </span>
+                    </a>
+                    <br>
+                    © 2020 Society of Aeronautics and Rocketry at USF. All rights reserved.
+                </p>
+            </div>
+        </footer>
+
+    </body>
+
+
+</html>
