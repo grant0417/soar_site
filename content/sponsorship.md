@@ -30,4 +30,7 @@ CAE is a worldwide leader in civil aviation, defense, and healthcare training. C
 
 Over the course of our many projects, SOAR purchases a significant amount of parts and supplies, and there are a few vendors who have been extra helpful and even offer us discounts based on our student organization status or just because. We’d like to thank them for all their help over the past years:
 
-[![Wildman Rockets](http://www.usfsoar.com/wp-content/uploads/2017/11/tom-768x214.png)](https://wildmanrocketry.com/)
+[![Tom's Rocket Gear](/img/logo/toms-rocket-gear.png)](http://www.tomsrocketgear.com/)
+
+
+[![Wildman Rockets](/img/logo/wildman.png)](https://wildmanrocketry.com/)

@@ -28,7 +28,7 @@ Members:
               is-one-quarter-widescreen
               is-one-quarter-fullhd">
     <figure class="image">
-        <img class="is-rounded" alt="Picture of Dr. Manougian" src="/img/eboard/manougian.jpg">
+        <img class="is-rounded" alt="Picture of Dr. Manougian" loading="lazy" src="/img/eboard/manougian.jpg">
     </figure>
   </div>
 
@@ -46,7 +46,7 @@ Members:
 <div class="columns">
   <div class="column is-two-fifths">
 <figure class="image">
-    <img class="is-rounded" alt="Pictue of Javian Hernandez" src="/img/eboard/jay.jpg">
+    <img class="is-rounded" alt="Picture of Javian Hernandez" loading="lazy" src="/img/eboard/jay.jpg">
 </figure>
 </div>
 
@@ -68,7 +68,7 @@ Javian is a senior studying Mechanical Engineering and will graduate in December
 <div class="columns">
   <div class="column is-two-fifths">
 <figure class="image">
-    <img class="is-rounded" alt="Pictue of Jackson Stephenson" src="/img/eboard/jackson.jpg">
+    <img class="is-rounded" alt="Picture of Jackson Stephenson" loading="lazy" src="/img/eboard/jackson.jpg">
 </figure>
 </div>
 
@@ -90,7 +90,7 @@ Jackson is a senior working towards an undergraduate degree in Mechanical Engine
 <div class="columns">
   <div class="column is-two-fifths">
 <figure class="image">
-    <img class="is-rounded" alt="Pictue of Ian Sanders" src="/img/eboard/ian.jpg">
+    <img class="is-rounded" alt="Picture of Ian Sanders" loading="lazy" src="/img/eboard/ian.jpg">
 </figure>
 </div>
 
@@ -102,7 +102,7 @@ Ian is a senior Mechanical Engineering student with a minor in Entrepreneurship.
 <a href="../contact">Contact Ian</a>
 </div>
 </div>
-
+p
 ---
 
 ## Madison Kozee
@@ -112,7 +112,7 @@ Ian is a senior Mechanical Engineering student with a minor in Entrepreneurship.
 <div class="columns">
   <div class="column is-two-fifths">
 <figure class="image">
-    <img class="is-rounded" alt="Pictue of Madison Kozee" src="/img/eboard/madison.jpg">
+    <img class="is-rounded" alt="Pictue of Madison Kozee" loading="lazy" src="/img/eboard/madison.jpg">
 </figure>
 </div>
 
@@ -134,7 +134,7 @@ Madison is a Junior working towards her B.S. in Physics while also earning her G
 <div class="columns">
   <div class="column is-two-fifths">
     <figure class="image">
-        <img class="is-rounded" alt="Pictue of Rosniel Castro" src="/img/eboard/ross.jpg">
+        <img class="is-rounded" alt="Pictue of Rosniel Castro" loading="lazy" src="/img/eboard/ross.jpg">
     </figure>
 </div>
 
@@ -156,7 +156,7 @@ Ross is a senior studying Chemistry. He is a Computational Biophysics research a
 <div class="columns">
   <div class="column is-two-fifths">
 <figure class="image">
-    <img class="is-rounded" alt="Pictue of Mrudit Trivedi" src="/img/eboard/mrudit.jpg">
+    <img class="is-rounded" alt="Pictue of Mrudit Trivedi" loading="lazy" src="/img/eboard/mrudit.jpg">
 </figure>
 </div>
 
@@ -178,7 +178,7 @@ Mrudit is currently pursuing his graduate studies in Mechanical Engineering with
 <div class="columns">
   <div class="column is-two-fifths">
 <figure class="image">
-    <img class="is-rounded" alt="Pictue of Thomas Hall" src="/img/eboard/tom.jpg">
+    <img class="is-rounded" alt="Pictue of Thomas Hall" loading="lazy" src="/img/eboard/tom.jpg">
 </figure>
 </div>
 

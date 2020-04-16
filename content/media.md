@@ -58,7 +58,7 @@ A team of students from USF is getting some help from a local business. They’r
 
 ### USF Students to Compete in NASA Rocket Tournament (WUSF NEWS)
 
-ubeat_rocketclub_9-26-16_3_r6501Few states have as close a tie to the U.S. space program than Florida, so it probably shouldn’t come as a surprise that there’s a growing number of would-be rocket scientists at the University of South Florida. In 2013, a mixture of mathematics, engineering and physic majors came together in a student club, the USF Society of Aeronautics and Rocketry, or SOAR…
+Few states have as close a tie to the U.S. space program than Florida, so it probably shouldn’t come as a surprise that there’s a growing number of would-be rocket scientists at the University of South Florida. In 2013, a mixture of mathematics, engineering and physic majors came together in a student club, the USF Society of Aeronautics and Rocketry, or SOAR…
 
 [Read More »](http://wusfnews.wusf.usf.edu/post/usf-rocket-club-soars-future)
 
