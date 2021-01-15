@@ -6,7 +6,11 @@ Thank you for your interest in becoming one of SOAR’s first supporters as part
 
 [SPONSORSHIP INFORMATION PACKET (pdf)](/files/SOAR-Sponsorship-Information-19-20.pdf)
 
+<!--
 Please contact Ian Sanders (<iansanders@mail.usf.edu>), our Chief Financial Officer, for more information or to schedule a meeting/conference call to discuss options. You can also reach SOAR for general inquiries at <contact@usfsoar.com>.
+-->
+
+For information or to schedule a meeting/conference call to discuss options send inquiries to <contact@usfsoar.com>.
 
 ## CURRENT SPONSORS
 
