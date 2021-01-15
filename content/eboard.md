@@ -6,13 +6,10 @@ description="SOAR currently has approximately 150 active members, including proj
 ![Eboard](/img/eboard/eboard.jpg)
 
 Members:
- * [Javian Hernandez, President](#javian-hernandez)
- * [Jackson Stephenson, Vice President](#jackson-stephenson)
- * [Ian Sanders, Chief of Finance](#ian-sanders)
- * [Madison Kozee, Chief of Operations](#madison-kozee)
- * [Rosniel Castro, Chief of Safety](#rosniel-castro)
- * [Mrudit Trivedi, Chief of Rocketry](#mrudit-trivedi)
- * [Thomas Hall, Chief of Engineering](#thomas-hall)
+ * [Rosniel Castro, President](#javian-hernandez)
+ * [Thomas Hall, Vice President](#jackson-stephenson)
+ * [Jack Schwenke, Chief of Finance](#ian-sanders)
+ <!--
 
 ---
 
@@ -36,6 +33,7 @@ Members:
   To learn about our faculty advisor, Dr. Manoug Manougian, see his <a href="http://www.math.usf.edu/faculty/manoug/">USF Faculty Bio</a> and his <a href="https://en.wikipedia.org/wiki/Manoug_Manougian">Wikipedia article</a>.
   </div>
 </div>
+
 
 ---
 
@@ -190,3 +188,5 @@ As Chief of Engineering, Tom oversees all non-rocket related projects in SOAR. S
 <a href="../contact">Contact Thomas</a>
 </div>
 </div>
+
+-->
