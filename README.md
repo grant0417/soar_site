@@ -2,7 +2,7 @@
 
 This is SOAR's new website, which is planned to make its public debut in Fall of 2020. The site will eventually be live at usfsoar.com.
 
-[View Site](https://gifted-edison-ea18a3.netlify.app/)
+[View Site](https://soarsite.netlify.app/)
 
 ## Contributing
 
